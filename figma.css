@@ -8,15 +8,15 @@
 
 body {
     width: 100%;
+    margin: 0 auto;
     height: auto;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 0;
     font-family: 'Red Hat Display', sans-serif;
-    box-sizing: border-box;
-    overflow: scroll;  
+    box-sizing: border-box; 
+    overflow-x: hidden;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -57,7 +57,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 33%;
+    width: 30%;
     margin-left: -70px;
 }
 
@@ -187,6 +187,7 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 30%;
     margin-right: -70px;
 }
 
@@ -467,12 +468,14 @@ p {
         order: 1;
         gap: 0;
         margin-left: 0;
+        width: 50%;
     }
         
     .right-photos {
         order: 2;
         gap: 0;
         margin-right: 0;
+        width: 50%;
     }
         .box-4 {
             margin-top: -50px;
@@ -493,7 +496,7 @@ p {
     }
 
         .content-2 {
-            width: 480px;
+            width: 420px;
         }
 
         h1 {
@@ -504,6 +507,7 @@ p {
 
         .upper-text {
             margin-bottom: 0;
+            font-size: 16px;
         }
 
         .content-3 {
@@ -547,6 +551,7 @@ p {
         .middle-text {
             width: 650px;
             text-align: center;
+            font-size: 16px;
         }
 
     footer {
@@ -653,10 +658,6 @@ p {
     }
     .photo-12 {
         width: 55px;
-    }
-
-    .line-1 {
-        margin-top: 0px;
     }
 
     .upper-text {
