@@ -65,6 +65,7 @@ header {
     width: 33%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }  
 
 .photo-1 {
@@ -82,6 +83,7 @@ header {
     margin-top: -50px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .photo-3 {
     width: 110px;
@@ -97,6 +99,7 @@ header {
     width: 33%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .photo-5 {
     width: 110px;
@@ -191,6 +194,7 @@ button {
     width: 33%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .photo-7 {
     width: 110px;
@@ -207,6 +211,7 @@ button {
     margin-top: 60px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .photo-9 {
     width: 110px;
@@ -222,6 +227,7 @@ button {
     width: 33%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .photo-11 {
     width: 110px;
