@@ -47,6 +47,7 @@ header {
     flex-wrap: wrap; 
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .sector-one > div {
@@ -444,6 +445,12 @@ p {
     }
 }
 
+@media (max-width: 1024px) {
+    body {
+        width: ;
+    }
+}
+
 @media (max-width: 770px) {
     body {
         display: flex;
@@ -462,6 +469,7 @@ p {
         justify-content: center;
         align-items: center;
         margin-top: 50px;
+        overflow: revert;
     }
 
     .left-photos {
