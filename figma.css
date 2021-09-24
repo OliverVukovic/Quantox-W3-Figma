@@ -8,7 +8,6 @@
 
 body {
     width: 100%;
-    max-width: 1440px;
     margin: 0 auto;
     height: auto;
     background-color: white;
@@ -16,9 +15,8 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     font-family: 'Red Hat Display', sans-serif;
-    box-sizing: border-box;
-    overflow: scroll;  
-    overflow-x: auto;
+    box-sizing: border-box; 
+    overflow-x: hidden;
     justify-content: center;
     align-items: center;
     text-align: center;
