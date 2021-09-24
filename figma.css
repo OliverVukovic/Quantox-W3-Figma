@@ -8,15 +8,16 @@
 
 body {
     width: 100%;
+    max-width: 1440px;
+    margin: 0 0;
     height: auto;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 0;
     font-family: 'Red Hat Display', sans-serif;
     box-sizing: border-box;
-    overflow: scroll;  
+    overflow-x: hidden;  
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -652,10 +653,6 @@ p {
     }
     .photo-12 {
         width: 55px;
-    }
-
-    .line-1 {
-        margin-top: 0px;
     }
 
     .upper-text {
