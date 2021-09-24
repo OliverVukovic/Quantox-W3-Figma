@@ -508,6 +508,7 @@ p {
         h1 {
             font-size: 48px;
             height: auto;
+            width: 340px;
         }
 
         .upper-text {
@@ -671,6 +672,7 @@ p {
 
     h1 {
         font-size: 40px;
+        width: 280px;
     }
     .p {
         font-size: 16px;
