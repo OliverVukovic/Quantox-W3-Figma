@@ -316,7 +316,7 @@ button {
 
 h2 {
     font-size: 40px;
-    width: 450px;
+    max-width: 450px;
     color: white;
 }
 
@@ -382,6 +382,7 @@ footer {
     url("./images/desktop/image-footer.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     width: 100%;
     height: 300px;
     margin-top: -30px;
@@ -407,7 +408,7 @@ footer {
     text-align: left;
 }
 .footer-text {
-    width: 350px;
+    max-width: 350px;
     color: white;
     margin: auto;
     text-align: left;
@@ -459,7 +460,7 @@ p {
     }
 
     .sector-one {
-        width: 770px;
+        width: auto;
         height: auto;
         display: flex;
         flex-direction: row;
@@ -508,7 +509,7 @@ p {
         h1 {
             font-size: 48px;
             height: auto;
-            width: 340px;
+            max-width: 340px;
         }
 
         .upper-text {
@@ -530,19 +531,19 @@ p {
         justify-content: center;
     }
         .square-1 {
-            width: 165px;
+            max-width: 165px;
             height: auto;
         }
         .square-2 {
-            width: 165px;
+            max-width: 165px;
             height: auto;
         }
         .square-3 {
-            width: 165px;
+            max-width: 165px;
             height: auto;
         }
         .square-4 {
-            width: 165px;
+            max-width: 165px;
             height: auto;
         }
 
@@ -550,14 +551,14 @@ p {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 650px;
+        max-width: 573px;
         align-items: center;
     }
 
         .middle-text {
-            width: 650px;
             text-align: center;
             font-size: 16px;
+            width: 80%;
         }
 
     footer {
@@ -566,7 +567,7 @@ p {
     }
 
     .sector-four {
-        width: 570px;
+        max-width: 573px;
         align-items: center;
         justify-content: center;
         gap: 20px;
@@ -577,7 +578,7 @@ p {
             text-align: center;
         }
         .footer-text {
-            width: 650px;
+            width: 100%;
             text-align: center;
         }
         .footer-button {
@@ -588,7 +589,7 @@ p {
 @media (max-width: 375px) {
     
     .sector-one {
-        max-width: 375px;
+        width: auto;
         margin-top: 50px;
     }
     .sector-one > div {
@@ -614,6 +615,7 @@ p {
     }
     .box-2 {
         width: 33%;
+        margin-top: -30px;
     }
     .box-3 {
         width: 33%;
@@ -621,12 +623,14 @@ p {
 
     .box-4 {
         width: 33%;
+        margin-top: -30px;
     }
     .box-5 {
         width: 33%;
     }
     .box-6 {
         width: 33%;
+        margin-top: -30px;
     }
 
     .photo-1 {
@@ -672,17 +676,18 @@ p {
 
     h1 {
         font-size: 40px;
-        width: 280px;
+        max-width: 280px;
     }
     .p {
         font-size: 16px;
     }
     .h2 {
         font-size: 32px;
+        width: auto;
     }
 
     .content-2 {
-        width: 340px;
+        max-width: 340px;
     }
 
     .content-3 {
@@ -691,7 +696,7 @@ p {
         flex-direction: row;
         flex-wrap: wrap;
         align-content: center;
-        width: 200px;
+        max-width: 200px;
         gap: 20px;
     }
 
@@ -722,15 +727,15 @@ p {
     }
 
     .middle-headline {
-        width: 380px;
+        max-width: 380px;
         font-size: 40px;
     }
     .middle-text {
-        width: 325px;
+        max-width: 325px;
         font-size: 16px;
     }
 
     .footer-text {
-        width: 327px;
+        max-width: 327px;
     }
 }
