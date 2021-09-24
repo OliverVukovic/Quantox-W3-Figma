@@ -499,6 +499,7 @@ p {
         h1 {
             font-size: 48px;
             height: auto;
+            width: 350px;
         }
 
         .upper-text {
@@ -664,6 +665,7 @@ p {
 
     h1 {
         font-size: 40px;
+        width: 280px;
     }
     .p {
         font-size: 16px;
@@ -715,7 +717,7 @@ p {
 
     .middle-headline {
         width: 380px;
-        font-size: 40px;
+        font-size: 32px;
     }
     .middle-text {
         width: 325px;
